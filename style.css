@@ -1,0 +1,125 @@
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #a30000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+p {
+    margin: 0;
+    font-size: 18px;
+}
+
+/* Estilos para secciones */
+section {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para iframes de video */
+iframe {
+    width: 100%;
+    height: 315px;
+    margin-top: 10px;
+}
+
+/* Estilos para listas */
+ul, ol {
+    margin: 0;
+    padding: 0 0 0 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Estilos para formularios */
+form {
+    margin-top: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #a30000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #5b0000;
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #a30000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 5px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
